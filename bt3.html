@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>餽贈</title>
+    <link rel="stylesheet" href="loader.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div class="loader_back" id="loader">
+        <div class="loader">
+            <div> </div>
+            <div> </div>
+            <div> </div>
+            <div> </div>
+        </div>
+    </div>
+
+    <div style="display: none;  " id="myDiv" class="animate-bottom">
+        <img src="images/btn3/btn3_page.png" alt="起源" style="width:100vw;" />
+    </div>
+    <div style="min-width:100vw;">
+
+        <img src="images/Mercuries.png" style="margin-left: 4%; margin-top: 3%; width: 60vw; height: 5vh; " />
+        <img src="images/SINYI.png" style="margin-left: 4%; margin-top: 3%; width: 50vw; height: 5vh; " />
+        <img src="images/THU.png" style="margin-left: 5%; margin-top: 3%; height: 14vh;" />
+        <img src="images/THU2.png" style="margin-left: 5%; margin-top: 3%; height: 6vh; " />
+        <img src="images/GSA.jpg" style="margin-left: 10%; margin-top: 3%; height: 13.5vh " />
+
+
+    </div>
+    <script>var myVar;
+        function myFunction() {
+            myVar = setTimeout(showPage, 2000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }</script>
+</body>
+</html >

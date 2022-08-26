@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>任務</title>
+    <link rel="stylesheet" href="loader.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div class="loader_back" id="loader">
+        <div class="loader">
+            <div> </div>
+            <div> </div>
+            <div> </div>
+            <div> </div>
+        </div>
+    </div>
+
+    <div style="display: none;" id="myDiv">
+        <img src="images/btn4/btn4_page.png" alt="起源" style="width:100vw" />
+        <div style="width:100vw; height:200vw; background-color:transparent; position:absolute; top:53vw;">
+            <a data-animation="ripple" class="page4btn page4btn1" href="javascript:delay('bt4-1/btn4-1_main.html')"></a>
+            <a data-animation="ripple" class="page4btn page4btn2" href="javascript:delay('bt4-2/btn4-2_main.html')"></a>
+            <a data-animation="ripple" class="page4btn page4btn3" href="javascript:delay('bt4-3/btn4-3_main.html')"></a>
+            <a data-animation="ripple" class="page4btn page4btn4" href="javascript:delay('bt4-4/btn4-4_main.html')"></a>
+            <a data-animation="ripple" class="page4btn page4btn5" href="javascript:delay('bt4-5/btn4-5_main.html')"></a>
+            <a data-animation="ripple" class="page4btn page4btn6" href="javascript:delay('bt4-6/btn4-6_main.html')"></a>
+            <a data-animation="ripple" class="page4btn page4btn7" href="javascript:delay('bt4-7/btn4-7_main.html')"></a>
+        </div>
+    </div>
+    <div style="min-width:100vw;">
+
+        <img src="images/Mercuries.png" style="margin-left: 4%; margin-top: 3%; width: 60vw; height: 5vh; " />
+        <img src="images/SINYI.png" style="margin-left: 4%; margin-top: 3%; width: 50vw; height: 5vh; " />
+        <img src="images/THU.png" style="margin-left: 5%; margin-top: 3%; height: 14vh;" />
+        <img src="images/THU2.png" style="margin-left: 5%; margin-top: 3%; height: 6vh; " />
+        <img src="images/GSA.jpg" style="margin-left: 10%; margin-top: 3%; height: 13.5vh " />
+
+
+    </div>
+
+    <script>var myVar;
+        function myFunction() {
+            myVar = setTimeout(showPage, 2000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }</script>
+    <script src="_ripple.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+﻿body {
+}
+
+
+
+.loader_back {
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(15deg,#794095,#0d1430);
+
+}
+.loader{
+    width:200px;
+    height:200px;
+    position:relative;
+}
+.loader div {
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: #51c0dc;
+    border-right-color: #4289c4;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    animation: spin 1.7s ease infinite;
+}
+.loader div:nth-child(1){
+    width:50px;
+    height:50px;
+    left:70px;
+    top:70px;
+}
+.loader div:nth-child(2) {
+        width:70px;
+        height: 70px;
+        left: 60px;
+        top: 60px;
+        animation-delay:0.1s;
+}
+.loader div:nth-child(3) {
+        width: 90px;
+        height: 90px;
+        left: 50px;
+        top: 50px;
+        animation-delay: 0.2s;
+}
+.loader div:nth-child(4) {
+        width: 110px;
+        height: 110px;
+        left: 40px;
+        top: 40px;
+        animation-delay: 0.3s;
+}
+@keyframes spin{
+    50%{
+        transform:rotate(180deg);
+    }
+    100%{
+        transform:rotate(0);
+    }
+
+}
+
+
+#myDiv {
+    display: none;
+ 
+}
+
+
+*[data-animation="ripple"] {
+    height: 100%;
+    width: 100%;
+    display: block;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+    *[data-animation="ripple"]:focus {
+        outline: none;
+    }
+
+    *[data-animation="ripple"]::selection {
+        background: transparent;
+        pointer-events: none;
+    }
+
+.backstyle {
+    width: 100%;
+    height: 13vw;
+    left:0.8vw;
+    top:1.4vw;
+    background-color: transparent;
+    position: absolute;
+}
+.page4btn {
+    background-color: transparent;
+    width: 87%;
+    height: 20vw;
+    left: 6.7vw;
+    position: absolute;
+    border: none;
+}
+
+.page4btn1{
+    top:3.5vw;
+}
+.page4btn2 {
+    top: 30.6vw;
+}
+.page4btn3 {
+    top: 57.6vw;
+}
+.page4btn4 {
+    top: 84.6vw;
+}
+.page4btn5 {
+    top: 112vw;
+}
+.page4btn6 {
+    top: 139vw;
+}
+.page4btn7 {
+    top: 166vw;
+}

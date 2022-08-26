@@ -1,0 +1,30 @@
+﻿body {
+
+}
+.btn {
+    width: 75.5%;
+
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+.btn0 {
+    left: 13.8vw;
+    height: 33vw;
+    top: 97.5vw;
+}
+.btn1 {
+    left: 15vw;
+    height: 21.5vw;
+    top: 149.2vw;
+}
+
+
+
+.btn2 {
+    left: 15vw;
+    height: 20.5vw;
+    top: 201vw;
+}
+
+

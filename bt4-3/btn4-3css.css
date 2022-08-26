@@ -1,0 +1,85 @@
+﻿body {
+}
+
+.btn {
+    width: 75.5%;
+    left: 15vw;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+.btn0 {
+    height: 43.5vw;
+    top: 226.4vw;
+}
+
+.btn1 {
+    height: 10.4vw;
+    top: 276.8vw;
+}
+
+.btn2 {
+    height: 9.7vw;
+    top: 292.6vw;
+}
+
+.btn3 {
+    height: 15.7vw;
+    top: 308.3vw;
+}
+
+.btn4 {
+    height: 9.7vw;
+    top: 330.8vw;
+}
+
+.btn5 {
+    height: 14.7vw;
+    top: 346.8vw;
+}
+
+.btn6 {
+    height: 10.7vw;
+    top: 368.3vw;
+}
+
+.btn7 {
+    height: 9vw;
+    top: 384.8vw;
+}
+
+.btn8 {
+    height: 9.7vw;
+    top: 401vw;
+}
+
+.btn9 {
+    height: 15.5vw;
+    top: 417vw;
+}
+
+.btn10 {
+    height: 10vw;
+    top: 439vw;
+}
+
+.btn11 {
+    height: 10vw;
+    top: 455.8vw;
+}
+
+.btn12 {
+    height: 10vw;
+    top: 472vw;
+}
+
+.btn13 {
+    height: 15vw;
+    top: 488vw;
+}
+
+.btn14 {
+    height: 10.5vw;
+    top: 509vw;
+}
